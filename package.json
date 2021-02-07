@@ -1,11 +1,16 @@
 {
   "name": "simple-http-assignment-start",
   "version": "1.0.0",
+  "engines": {
+    "node": "15.8.0",
+    "npm": "7.5.1"
+  },
   "description": "simple HTTP Assignment",
   "main": "./src/server.js",
   "scripts": {
     "start": "node ./src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/oracra/Simple-HTTP-Assignment-Start/issues"
   },
-  "homepage": "https://github.com/oracra/Simple-HTTP-Assignment-Start#readme"
+  "homepage": "https://github.com/oracra/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
 }
