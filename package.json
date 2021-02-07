@@ -1,0 +1,20 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "simple HTTP Assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oracra/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Nick Arcaro",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/oracra/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/oracra/Simple-HTTP-Assignment-Start#readme"
+}
